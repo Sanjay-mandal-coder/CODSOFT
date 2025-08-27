@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  font-family: "Poppins", sans-serif;
+}
+.head{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 0.1rem;
+  font-size: 4rem;
+  color: rgb(128, 175, 216);
+}
+main {
+  border: 1px solid #717377;
+  padding: 20px;
+  border-radius: 16px;
+  background: transparent;
+  width: 25rem;
+  height: 34rem;
+  box-shadow: 0px, 3px, 15px, rgba(113, 115, 119, 0.5);
+}
+
+input {
+  width: 100%;
+  border: none;
+  padding: 24px;
+  margin-bottom:1.8rem ;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.4);
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+}
+.first{
+  display: flex;
+  justify-content: center;
+}
+#inputBox{
+  color: #ffffff;
+}
+input::placeholder {
+  color: #ffffff;
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 20%;
+  margin-bottom: 10%;
+  background: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.3);
+}
+button:hover{
+  cursor: pointer;
+  font-size: 2rem;
+}
+.operator {
+  color: #6dee0a;
+}
+.equalBtn {
+  background-color: #261b01;
+}
+@media (max-width:480px) {
+  
+  .head{
+    font-size: 3rem;
+  }
+  main{
+    height: 32rem;
+    width: 85%;
+    margin:2% 10% 10% 10%;
+  }
+  button{
+   margin-bottom: 10%;
+
+  }
+}

@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 38);
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+nav {
+  background-color: rgb(11, 9, 9);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+.left {
+  font-size: 2rem;
+}
+.right {
+  margin-left: 30px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li:hover{
+  padding: 10px;
+  border-radius: 0.7rem;
+  background-color: aqua;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+.firstSection {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.leftside {
+  margin-top: 50px;
+}
+img {
+  width: 35rem;
+}
+.purple {
+  color: rgb(170, 107, 228);
+}
+#element {
+  color: rgb(170, 107, 228);
+}
+section button:hover {
+  padding: 10px;
+  border-radius: 0.7rem;
+  background-color: aqua;
+}
+.fstbtn {
+  background-color: rgb(9, 98, 98);
+  margin-top: 30px;
+  padding: 8px;
+  font-size: 1.4rem;
+  margin-right: 40px;
+  cursor: pointer;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+}
+.sndbtn {
+  background-color: rgb(9, 98, 98);
+  
+  margin-top: 30px;
+  padding: 8px;
+  font-size: 1.4rem;
+  margin-right: 40px;
+  cursor: pointer;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+}
+button a{
+  color: black;
+  text-decoration: none;
+}
+.thirdSection{
+   display: flex;
+   justify-content: center;
+   margin: 11rem;
+}
+section div img{
+  width: 20rem;
+  margin-right: 15rem;
+  border-radius: 20%;
+}
+.secondSection {
+  height: 80vh;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.box {
+  margin-top: 20px;
+  height: 2px;
+  background-color: white;
+  width: 80vw;
+}
+.boxnd {
+  display: flex;
+  justify-content: space-between;
+}
+.vertical {
+  height: 50px;
+  background-color: white;
+  width: 2px;
+}
+.vertical-disc {
+  display: flex;
+  justify-content: space-evenly;
+}
+section div h1{
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+.image2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18rem;
+  margin: 5rem 5rem 10rem 5rem;
+}
+section div img:hover{
+  cursor: pointer;
+  height: 20rem;
+}
+.insideImage{
+  height: 14rem;
+  margin: 3rem;
+}
+#contact{
+  margin-bottom: 4rem;
+}
+.contact-form form{
+  position:relative;
+
+}
+.contact-form form input,form textarea{
+  border: none;
+  outline: none;
+  width: 70%;
+  padding: 18px;
+  background: #555557;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 12rem;
+  margin-right: 10rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+.contact-form textarea{
+  resize: none;
+  height: 220px;
+}
+#send{
+  width: 73%;
+}
+#send:hover{
+  cursor: pointer;
+  background-color: aqua;
+}
+footer {
+  height: 40vh;
+  background-color: rgb(11, 9, 9);
+  margin-top: 30px;
+}
+.mainfoot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stfoot {
+  margin-top: 30px;
+}
+.ndfoot {
+  margin-top: 30px;
+}
+footer div h6{
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
